@@ -59,7 +59,7 @@ const Banner = () => {
               Achieve results in
               <br /> weeks; not in month
             </h2>
-            <img src={after} alt="after" className="w-full px-[8rem]" />
+            <img src={after} alt="after" className="w-full px-[4rem]" />
             <p className="font-body my-[3rem] mx-[10rem] text-xl text-center">
               With Koach, we accelerate coach and client sourcing, swiftly
               pairing new and young pros with culturally aligned, world-class
