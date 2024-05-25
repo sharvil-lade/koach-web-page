@@ -4,11 +4,13 @@ import dashboard from "../assets/dashboard.png";
 function Dashboard() {
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const roles = [
-    "College Senior",
+    "College Seniors",
     "New Pros",
     "Alumni",
     "Coaches & Mentors",
-    "Coaching Program",
+    "VC's",
+    "Startups",
+    "New Professionals",
     "University Carrier Services",
   ];
 
