@@ -7,3 +7,65 @@
 body {
   @apply font-figtree;
 }
+
+@keyframes slide-in-rl {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-lr {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-up {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in-animation {
+  animation: fade-in 1s ease-out forwards;
+}
+
+.fade-in-animation-delay {
+  animation: fade-in 1s ease-out forwards 0.5s;
+}
+
+.slide-in-rl-animation {
+  animation: slide-in-rl 1s ease-out forwards;
+}
+
+.slide-in-lr-animation {
+  animation: slide-in-lr 1s ease-out forwards;
+}
+
+.slide-in-up-animation {
+  animation: slide-in-lr 1s ease-out forwards;
+}

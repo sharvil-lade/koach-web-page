@@ -1,14 +1,38 @@
-import koach from "../assets/koach.png";
+// import koach from "../assets/koach.png";
+// import SlideUpImage from "./SlideUpImage";
+import mentor from "../assets/mentor.png"
+import mentee from "../assets/mentee.png"
+import ellipseL from "../assets/ellipseL.png"
+import ellipseR from "../assets/ellipseR.png"
+import match95 from "../assets/match95.png"
+import SlidingImageLr from "./SlidingImageLr";
+import SlidingImageRl from "./SlidingImageRl";
+import FadeInImage from "./FadeInImage";
+
 
 function Koach() {
   return (
     <div className="flex flex-col md:flex-row h-screen">
-      <div className="w-full md:w-1/2 flex justify-center items-center p-8 border border-black">
-        <img
+      <div className=" w-full md:w-1/2 flex flex-col relative gap-[2rem] items-center p-8 border border-black">
+        {/* <img
           src={koach}
           alt="Placeholder"
           className="w-full h-full object-contain"
-        />
+        /> */}
+        {/* <SlideUpImage src={koach} /> */}
+        <div className="w-[6rem] absolute top-[-10rem] z-[1]">
+          <FadeInImage src={match95} />
+        </div>
+        <div className="flex absolute gap-x-[3rem] w-[20rem] top-[-9rem]">
+          <FadeInImage src={ellipseL} />
+          <FadeInImage src={ellipseR} />
+
+        </div>
+        <div className="flex absolute gap-x-[3rem]">
+          <SlidingImageLr src={mentor}/>
+          <SlidingImageRl src={mentee} className="pt-[2rem]"/>
+        </div>
+        
       </div>
       <div className="bg-yellow-300 text-black p-8 w-full md:w-1/2 flex flex-col justify-center pl-4 md:pl-16">
         <h1 className="text-3xl md:text-5xl font-bold mb-4">
@@ -19,7 +43,7 @@ function Koach() {
           new and young pros with culturally aligned, world-class coaches
         </h2>
         <div className="py-4">
-          <button className="bg-slate-900 text-white py-4 md:py-6 px-8 md:px-16 rounded-lg shadow-lg hover:bg-slate-800 transition duration-300 text-xl md:text-2xl">
+        <button className="bg-slate-900 text-white py-4 md:py-6 px-6 md:px-16 rounded-lg shadow-lg hover:bg-slate-800 transition duration-300 text-lg md:text-2xl border-2 border-black font-semibold uppercase hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[10px_10px_0px_#3498db] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
             Accelerate Career
           </button>
         </div>

@@ -13,27 +13,21 @@ function App() {
       <Border>
         <Hero />
       </Border>
-
       <Border>
         <Banner />
       </Border>
-
-      <Border>
-        <Koach />
-      </Border>
-
-      <Border>
-        <Coaches />
-      </Border>
-      
       <Border>
         <KoachMatch />
       </Border>
-
+      <Border>
+        <Coaches />
+      </Border>
+      <Border>
+        <Koach />
+      </Border>
       <Border>
         <Dashboard />
       </Border>
-
       <Border>
         <Footer />
       </Border>
