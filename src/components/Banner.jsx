@@ -68,21 +68,23 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#2D488F] border-x-[3px] border-y-[1.5px] border-[black] flex flex-col flex-wrap justify-center text-center text-white w-full py-[2.5rem] px-[3rem]">
-        <h3 className="font-body font-[800] text-[2.75rem]">
+      <div className="bg-[#2D488F] border-x-[3px] border-y-[1.5px] border-[black] flex flex-col flex-wrap justify-center text-center text-white w-full py-[2.5rem] px-[1.5rem] md:px-[3rem]">
+        <h3 className="font-body font-[800] text-[2rem] md:text-[2.75rem]">
           Koach is for Entrepreneurs
         </h3>
-        <p className="font-body font-normal text-[1.5rem] mb-[2rem]">
+        <p className="font-body font-normal text-[1.25rem] md:text-[1.5rem] mb-[1.5rem] md:mb-[2rem]">
           (Em)Powered by Experience. Leading the Future. Today.
         </p>
-        <p className="font-body font-normal text-[1.5rem] mt-[2rem] px-[14rem] mb-[2rem]">
+        <p className="font-body font-normal text-[1.25rem] md:text-[1.5rem] mt-[1.5rem] md:mt-[2rem] px-[2rem] md:px-[10rem] lg:px-[14rem] mb-[1.5rem] md:mb-[2rem]">
           Koach is your future-proof career catalyst. We connect you with
           World-Class coaches who've dominated their fields and domains and are
           ready to accelerate your professional-career goals.
         </p>
-        <div className="flex justify-center items-center gap-[3rem] relative">
-          <p className="font-body font-bold text-2xl">Search Mentor</p>
-          <button className="bg-slate-900 text-white py-4 md:py-6 px-6 md:px-16 rounded-lg shadow-lg hover:bg-slate-800 transition duration-300 text-lg md:text-2xl border-2 border-black font-semibold uppercase hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[10px_10px_0px_#3498db] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-[1.5rem] md:gap-[3rem] relative">
+          <p className="font-body font-bold text-xl md:text-2xl">
+            Search Mentor
+          </p>
+          <button className="bg-slate-900 text-white py-3 md:py-6 px-4 md:px-16 rounded-lg shadow-lg hover:bg-slate-800 transition duration-300 text-lg md:text-2xl border-2 border-black font-semibold uppercase hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[10px_10px_0px_#3498db] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
             Start Now
           </button>
         </div>

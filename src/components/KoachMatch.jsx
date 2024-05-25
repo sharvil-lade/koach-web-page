@@ -1,11 +1,11 @@
-import match from "../assets/match.png";
+import match1 from "../assets/match1.gif";
 
 function KoachMatch() {
   return (
     <div className="flex flex-col md:flex-row h-auto md:h-screen">
       <div className="w-full md:w-1/2 flex justify-center items-center p-8 border border-black">
         <img
-          src={match}
+          src={match1}
           alt="Placeholder"
           className="w-full h-full object-contain"
         />
