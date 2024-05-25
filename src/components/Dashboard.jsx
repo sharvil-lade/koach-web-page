@@ -26,7 +26,6 @@ function Dashboard() {
         <h1 className="text-5xl p-4 font-bold">
           Koach is for{" "}
           <span className="text-blue-600">{roles[currentRoleIndex]}</span>.
-          Period.
         </h1>
         <h1 className="text-2xl">
           Empowered by Experience. Leading the Future. Today.
