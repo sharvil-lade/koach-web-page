@@ -41,11 +41,11 @@ const Banner = () => {
       <div className="flex flex-col md:flex-row">
         <div className="border-x-[3px] border-y-[1.5px] border-[black] w-full md:w-[50%]">
           <div className="flex flex-col items-center p-4 md:p-0">
-            <p className="bg-[#F5E649] border rounded-3xl font-body font-medium my-[20px] py-[5px] px-[2rem] text-xl md:text-2xl">
+            <p className="bg-[#F5E649] border rounded-3xl font-body font-medium my-[20px] py-[5px] px-[2rem] text-[16px] md:text-2xl">
               Before
             </p>
-            <h2 className="font-body font-[800] text-2xl md:text-4xl mb-[1.5rem] md:mb-[3rem] text-center">
-              Traditional Coaching: <br /> Sluggish
+            <h2 className="font-body font-[800] text-[28px] md:text-4xl mb-[1.5rem] md:mb-[3rem] text-center">
+              Traditional Coaching: <br /> Sluggish and Outdated
             </h2>
             <img src={slug} alt="slug" className="w-full px-[2rem]" />
             <p className="font-body mx-[1rem] md:mx-[10rem] text-lg md:text-xl text-center">
@@ -58,10 +58,10 @@ const Banner = () => {
 
         <div className="border-x-[3px] border-y-[1.5px] border-[black] w-full md:w-[50%]">
           <div className="flex flex-col items-center p-4 md:p-0">
-            <p className="font-body font-medium bg-[#F5E649] border rounded-3xl my-[20px] py-[5px] px-[2rem] text-xl md:text-2xl">
+            <p className="font-body font-medium bg-[#F5E649] border rounded-3xl my-[20px] py-[5px] px-[2rem] text-[16px] md:text-2xl">
               After
             </p>
-            <h2 className="font-body font-[800] text-2xl md:text-4xl mb-[1.5rem] md:mb-[3rem] text-center">
+            <h2 className="font-body font-[800] text-[28px] md:text-4xl mb-[1.5rem] md:mb-[3rem] text-center">
               Achieve results in
               <br /> weeks; not in months
             </h2>
@@ -87,11 +87,11 @@ const Banner = () => {
           ready to accelerate your professional-career goals.
         </p>
         <div className="flex flex-col md:flex-row justify-center items-center gap-[1.5rem] md:gap-[3rem] relative">
-          <p className="font-body font-bold text-xl md:text-2xl">
-            Search Mentor
-          </p>
-          <button className="bg-slate-900 text-white py-3 md:py-6 px-4 md:px-16 rounded-lg shadow-lg hover:bg-slate-800 transition duration-300 text-lg md:text-2xl border-2 border-black font-semibold uppercase hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[10px_10px_0px_#3498db] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
-            Start Now
+          <button className="font-body font-medium border rounded-lg lg:py-[0.75rem] md:py-[0.75rem] px-[4rem] text-lg mb-4 lg:mb-0">
+            Subscribe to <br/> the newsletter
+          </button>
+          <button className="bg-slate-900 text-white py-3 md:py-6 px-4 md:px-16 rounded-lg shadow-lg hover:bg-slate-800 transition duration-300 text-lg  md:text-2xl border-2 border-black font-semibold uppercase hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[10px_10px_0px_#3498db] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
+            Get Priority Access
           </button>
         </div>
       </div>
