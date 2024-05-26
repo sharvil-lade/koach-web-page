@@ -1,5 +1,3 @@
-// import koach from "../assets/koach.png";
-// import SlideUpImage from "./SlideUpImage";
 import mentor from "../assets/mentor.png";
 import mentee from "../assets/mentee.png";
 import ellipseL from "../assets/ellipseL.png";
@@ -12,26 +10,20 @@ import FadeInImage from "./FadeInImage";
 function Koach() {
   return (
     <div className="flex flex-col md:flex-row h-screen">
-      <div className=" w-full md:w-1/2 flex flex-col relative gap-[2rem] items-center p-8 border border-black">
-        {/* <img
-          src={koach}
-          alt="Placeholder"
-          className="w-full h-full object-contain"
-        /> */}
-        {/* <SlideUpImage src={koach} /> */}
-        <div className="w-[6rem] absolute top-[-10rem] z-[1]">
+      <div className="w-full md:w-1/2 flex flex-col relative gap-8 items-center p-4 md:p-8 border border-black">
+        <div className="w-24 absolute top-[-2.5rem] md:top-[-10rem] z-10">
           <FadeInImage src={match95} />
         </div>
-        <div className="flex absolute gap-x-[3rem] w-[20rem] top-[-9rem]">
+        <div className="flex absolute gap-x-12 w-80 top-[-2.25rem] md:top-[-9rem]">
           <FadeInImage src={ellipseL} />
           <FadeInImage src={ellipseR} />
         </div>
-        <div className="flex absolute gap-x-[3rem]">
+        <div className="flex absolute gap-x-12 top-8 md:top-0">
           <SlidingImageLr src={mentor} />
-          <SlidingImageRl src={mentee} className="pt-[2rem]" />
+          <SlidingImageRl src={mentee} className="pt-8 md:pt-0" />
         </div>
       </div>
-      <div className="bg-yellow-300 text-black p-8 w-full md:w-1/2 flex flex-col justify-center pl-4 md:pl-16">
+      <div className="bg-yellow-300 text-black p-4 md:p-8 w-full md:w-1/2 flex flex-col justify-center pl-4 md:pl-16">
         <h1 className="text-3xl md:text-5xl font-bold mb-4">
           Strategic Talent Development Platform
         </h1>
