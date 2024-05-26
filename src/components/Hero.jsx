@@ -27,7 +27,7 @@ function Hero() {
         </div>
       </div>
       <div className="text-center p-6 md:p-12 mt-4 md:mt-8">
-        <h1 className="text-3xl md:text-6xl font-bold mb-2 md:mb-4">
+        <h1 className="text-3xl md:text-6xl font-bold mb-2 mt-4 md:mb-4">
           Say goodbye to endless{" "}
           <span className="text-blue-600 platform-name">{platform}</span>{" "}
           searches.
