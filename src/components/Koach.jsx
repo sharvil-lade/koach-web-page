@@ -35,7 +35,7 @@ function Koach() {
         <h1 className="text-3xl md:text-5xl font-bold mb-4">
           Strategic Talent Development Platform
         </h1>
-        <h2 className="text-xl md:text-3xl mb-6 py-4">
+        <h2 className="text-xl md:text-2xl mb-6 py-4">
           With Koach, we accelerate coach and client sourcing, swiftly pairing
           new and young pros with culturally aligned, world-class coaches
         </h2>

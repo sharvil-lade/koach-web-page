@@ -20,8 +20,8 @@ function Hero() {
   }, [index, platforms]);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-green-100 to-gray-200 text-gray-900">
-      <div className="w-full border-b-4 border-black flex justify-center items-center">
+    <div className="hero-container flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-green-100 to-gray-200 text-gray-900">
+      <div className="navbar-container w-full border-b-4 border-black flex justify-center items-center">
         <div className="border-l-4 border-r-4 border-black px-4">
           <img src={koachh} alt="Koach Logo" className="h-20 md:h-28 p-4" />
         </div>
@@ -45,7 +45,7 @@ function Hero() {
         </div>
         <div className="pt-6 md:pt-12">
           <button className="bg-slate-900 text-white py-3 md:py-6 px-4 md:px-16 rounded-lg shadow-lg hover:bg-slate-800 transition duration-300 text-lg md:text-2xl border-2 border-black font-semibold uppercase hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[10px_10px_0px_#3498db] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
-            Get Early Access
+            Get Priority Access
           </button>
         </div>
       </div>

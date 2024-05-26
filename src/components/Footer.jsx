@@ -8,9 +8,9 @@ import { FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-      <div className="border-x-[3px] border-y-[1.5px] border-[black] bg-gradient-to-t from-[#2D488F] to-[#4C639F] flex flex-col justify-center text-center text-[white] w-full">
+      <div className="border-x-[3px] border-y-[1.5px] border-[black] bg-gradient-to-t from-[#2D488F] to-[#4C639F] flex flex-col justify-center text-center text-[white] w-full px-4">
         <h2 className="font-body font-[800] px-[2rem] pt-[2rem] text-[2rem] lg:text-[3rem]">
-          Join the 1.7 K members winning with Koach
+          Join the 1.7k members winning with Koach
         </h2>
         <p className="font-body pt-[1rem] text-xl lg:text-2xl pb-[1rem]">
           Join our community list to stay up to date & for exclusive launch
@@ -33,7 +33,7 @@ const Footer = () => {
         </h1>
       </div>
       <div className="flex flex-col lg:flex-row w-full border-x-[3px] border-y-[1.5px] border-[black]">
-        <div className="bg-[#2D488F] border-r-[1.5px] border-[black] flex flex-col flex-wrap px-[3rem] pt-[4rem] items-end text-right text-[white] w-full lg:w-[50%]">
+        <div className="bg-[#2D488F] border-r-[1.5px] border-[black] flex flex-col flex-wrap p-4 md:px-[3rem] pt-[4rem] items-center lg:items-end text-center lg:text-right text-[white] w-full lg:w-[50%]">
           <h3 className="font-body font-[800] text-2xl lg:text-4xl py-[2rem]">
             Drive your Career Forward,
             <br />
@@ -41,9 +41,9 @@ const Footer = () => {
           </h3>
           <p className="text-lg lg:text-xl pb-[2rem]">
             Connect with Boss-level World-Class
-            <br /> Coaches in just a 2 minutes.
+            <br /> Coaches in just 2 minutes.
           </p>
-          <button className="font-body font-medium border rounded-lg py-[1rem] px-[1rem] text-lg w-full lg:w-[30%]">
+          <button className="font-body font-medium border rounded-lg py-[1rem] px-[1rem] text-lg w-full lg:w-[30%] mb-4 lg:mb-0">
             Subscribe
           </button>
         </div>

@@ -5,44 +5,50 @@ import after from "../assets/Frame 309.png";
 const Banner = () => {
   return (
     <>
-      <div className="bg-[#2D488F] border-x-[3px] border-y-[1.5px] border-[black] flex justify-center font-body text-center text-[44px] text-white w-full py-[2.5rem] px-[3rem]">
+      <div className="bg-[#2D488F] border-x-[3px] border-y-[1.5px] border-[black] flex justify-center font-body text-center text-[28px] md:text-[44px] text-white w-full py-[1.5rem] md:py-[2.5rem] px-[1.5rem] md:px-[3rem]">
         <p>
           Secure world-class coaching, build your network of skilled
-          <br />
+          <br className="hidden md:block" />
           mentors and accelerate your professional growth trajectory
         </p>
       </div>
-      <div className="bg-[#F5E649] border-x-[3px] border-y-[1.5px] border-[black] flex flex-wrap gap-x-[8rem] py-[4rem]  justify-center">
-        <div className="flex flex-col flex-wrap items-center ">
-          <h2 className="font-body font-[900] text-6xl">300+</h2>
-          <p className="font-body font-normal py-[0.5rem] text-[20px]">
-            Coaches and Mentors in our Koach Network
+      <div className="bg-[#F5E649] border-x-[3px] border-y-[1.5px] border-[black] flex flex-wrap gap-x-[2rem] md:gap-x-[12rem] py-[2rem] md:py-[4rem] justify-center">
+        <div className="flex flex-col items-center text-center mb-6 md:mb-0">
+          <h2 className="font-body font-[900] text-4xl md:text-6xl">300+</h2>
+          <p className="font-body font-normal py-[0.5rem] text-[16px] md:text-[20px]">
+            Coaches and Mentors in our
+          </p>
+          <p className="font-body font-normal text-[16px] md:text-[20px]">
+            Koach Network
           </p>
         </div>
-        <div className="flex flex-col flex-wrap items-center">
-          <h2 className="font-body font-[900] text-6xl">7X</h2>
-          <p className="font-body font-normal py-[0.5rem] text-[20px]">
-            Fast Time to Value than Navigation Alone
+        <div className="flex flex-col items-center text-center mb-6 md:mb-0 pr-0 md:pr-20">
+          <h2 className="font-body font-[900] text-4xl md:text-6xl">7X</h2>
+          <p className="font-body font-normal py-[0.5rem] text-[16px] md:text-[20px]">
+            Fast Time to Value than
+          </p>
+          <p className="font-body font-normal text-[16px] md:text-[20px]">
+            Navigation Alone
           </p>
         </div>
-        <div className="flex flex-col flex-wrap items-center">
-          <h2 className="font-body font-[900] text-6xl">175+</h2>
-          <p className="font-body font-normal py-[0.5rem] text-[20px]">
+        <div className="flex flex-col items-center text-center pr-0 md:pr-4">
+          <h2 className="font-body font-[900] text-4xl md:text-6xl">175+</h2>
+          <p className="font-body font-normal py-[0.5rem] text-[16px] md:text-[20px]">
             Sessions booked
           </p>
         </div>
       </div>
-      <div className="flex">
-        <div className="border-x-[3px] border-y-[1.5px] border-[black] w-[50%]">
-          <div className="flex flex-col items-center">
-            <p className="bg-[#F5E649] border rounded-3xl font-body font-medium my-[20px] py-[5px] px-[2rem] text-2xl">
+      <div className="flex flex-col md:flex-row">
+        <div className="border-x-[3px] border-y-[1.5px] border-[black] w-full md:w-[50%]">
+          <div className="flex flex-col items-center p-4 md:p-0">
+            <p className="bg-[#F5E649] border rounded-3xl font-body font-medium my-[20px] py-[5px] px-[2rem] text-xl md:text-2xl">
               Before
             </p>
-            <h2 className="font-body font-[800] text-4xl mb-[3rem] text-center">
+            <h2 className="font-body font-[800] text-2xl md:text-4xl mb-[1.5rem] md:mb-[3rem] text-center">
               Traditional Coaching: <br /> Sluggish
             </h2>
             <img src={slug} alt="slug" className="w-full px-[2rem]" />
-            <p className="font-body mx-[10rem] text-xl text-center">
+            <p className="font-body mx-[1rem] md:mx-[10rem] text-lg md:text-xl text-center">
               Finding, both the right coach and the right fit clients for your
               coaching business can take up to 6 months.
             </p>
@@ -50,17 +56,17 @@ const Banner = () => {
           {/* <img src={arr} alt='arrow'/> */}
         </div>
 
-        <div className="border-x-[3px] border-y-[1.5px] border-[black] w-[50%]">
-          <div className="flex flex-col items-center">
-            <p className="font-body font-medium bg-[#F5E649] border rounded-3xl my-[20px] py-[5px] px-[2rem] text-2xl">
+        <div className="border-x-[3px] border-y-[1.5px] border-[black] w-full md:w-[50%]">
+          <div className="flex flex-col items-center p-4 md:p-0">
+            <p className="font-body font-medium bg-[#F5E649] border rounded-3xl my-[20px] py-[5px] px-[2rem] text-xl md:text-2xl">
               After
             </p>
-            <h2 className="font-body font-[800] text-4xl mb-[3rem] text-center">
+            <h2 className="font-body font-[800] text-2xl md:text-4xl mb-[1.5rem] md:mb-[3rem] text-center">
               Achieve results in
-              <br /> weeks; not in month
+              <br /> weeks; not in months
             </h2>
-            <img src={after} alt="after" className="w-full px-[4rem]" />
-            <p className="font-body my-[3rem] mx-[10rem] text-xl text-center">
+            <img src={after} alt="after" className="w-full px-[2rem] md:px-[8rem]" />
+            <p className="font-body my-[1.5rem] md:my-[3rem] mx-[1rem] md:mx-[10rem] text-lg md:text-xl text-center">
               With Koach, we accelerate coach and client sourcing, swiftly
               pairing new and young pros with culturally aligned, world-class
               coaches.
@@ -68,7 +74,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#2D488F] border-x-[3px] border-y-[1.5px] border-[black] flex flex-col flex-wrap justify-center text-center text-white w-full py-[2.5rem] px-[1.5rem] md:px-[3rem]">
+      <div className="bg-[#2D488F] border-x-[3px] border-y-[1.5px] border-[black] flex flex-col justify-center text-center text-white w-full py-[2.5rem] px-[1.5rem] md:px-[3rem]">
         <h3 className="font-body font-[800] text-[2rem] md:text-[2.75rem]">
           Koach is for Entrepreneurs
         </h3>

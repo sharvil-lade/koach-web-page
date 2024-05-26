@@ -9,9 +9,13 @@ function Dashboard() {
     "Alumni",
     "Coaches & Mentors",
     "VC's",
+    "Founders",
     "Startups",
     "New Professionals",
     "University Carrier Services",
+    "Entrepreneurs",
+    "Higher Education",
+    "International Student Services"
   ];
 
   useEffect(() => {
