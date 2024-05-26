@@ -27,12 +27,12 @@ function Hero() {
         </div>
       </div>
       <div className="text-center p-6 md:p-12 mt-4 md:mt-8">
-        <h1 className="text-3xl md:text-6xl font-bold mb-2 mt-4 md:mb-4">
+        <h1 className="text-3xl md:text-5xl font-bold mb-2 mt-4 md:mb-4">
           Say goodbye to endless{" "}
           <span className="text-blue-600 platform-name">{platform}</span>{" "}
           searches.
         </h1>
-        <h1 className="text-3xl md:text-6xl font-bold mb-8 md:mb-16">
+        <h1 className="text-3xl md:text-5xl font-bold mb-8 md:mb-16">
           Find expert advice effortlessly with Koach.
         </h1>
         <div className="max-w-3xl md:max-w-5xl mx-auto">
@@ -43,7 +43,7 @@ function Hero() {
             Stop spinning your wheels and start accelerating your career.
           </p>
         </div>
-        <div className="pt-6 md:pt-12">
+        <div className="pt-4 md:pt-12">
           <button className="bg-slate-900 text-white py-3 md:py-6 px-4 md:px-16 rounded-lg shadow-lg hover:bg-slate-800 transition duration-300 text-lg md:text-2xl border-2 border-black font-semibold uppercase hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[10px_10px_0px_#3498db] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
             Get Priority Access
           </button>
