@@ -23,7 +23,7 @@ function Hero() {
     <div className="hero-container flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-green-100 to-gray-200 text-gray-900">
       <div className="navbar-container w-full border-b-4 border-black flex justify-center items-center">
         <div className="border-l-4 border-r-4 border-black px-4">
-          <img src={koachh} alt="Koach Logo" className="h-20 md:h-28 p-4" />
+          <img src={koachh} alt="Koach Logo" className="h-20 md:h-20 p-4" />
         </div>
       </div>
       <div className="text-center p-6 md:p-12 mt-4 md:mt-8">
