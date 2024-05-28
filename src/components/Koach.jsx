@@ -12,29 +12,27 @@ import FadeInImage from "./FadeInImage";
 function Koach() {
   return (
     <div className="flex flex-col md:flex-row h-screen">
-      <div className=" w-full md:w-1/2 h-[50vh] md:min-w-[50vw] md:h-[100vh] flex flex-col relative gap-[2rem] items-center p-8 border border-black ">
+      <div className=" w-full md:w-1/2 h-[50vh] md:min-w-[50vw] md:h-[100vh] flex flex-col relative gap-[2rem] items-center p-[6rem] md:p-[2rem] border border-black ">
         {/* <img
           src={koach}
           alt="Placeholder"
           className="w-full h-full object-contain"
         /> */}
         {/* <SlideUpImage src={koach} /> */}
-        <div className="w-[6rem] absolute top-[-20rem] md:top-[-10rem] z-[1]">
+        <div className="w-[6rem] absolute top-[-20rem] my-[1rem] md:my-0 md:top-[-10rem] z-[1]">
           <FadeInImage src={match95} />
         </div>
-        <div className="flex absolute gap-x-[2rem] md:gap-x-[3rem] w-[20rem] top-[-20rem] md:top-[-9rem]">
+        <div className="flex absolute gap-x-[2rem] md:gap-x-[3rem] my-[1rem] md:my-0 w-[20rem] top-[-20rem] md:top-[-9rem]">
           <FadeInImage src={ellipseL} />
           <FadeInImage src={ellipseR} />
         </div>
-        <div className="flex absolute gap-x-[5rem] top-[-13rem] md:top-0">
+        <div className="flex absolute  my-[1rem] md:my-0 top-[-13rem] md:top-0">
           <SlidingImageLr src={mentor} />
           <SlidingImageRl src={mentee} className="pt-[2rem]" />
         </div>
       </div>
-      <div className="bg-yellow-300 text-black p-8 w-full md:w-1/2 h-[50vh] md:min-w-[50vw] md:h-[100vh] flex flex-col justify-center pl-4 md:pl-16">
-        <h1 className="text-3xl md:text-5xl font-bold mb-4">
-          Find Your Match
-        </h1>
+      <div className="bg-yellow-300 text-black p-8 w-full h-[50vh]  md:h-[100vh] flex flex-col justify-center pl-4 md:pl-16">
+        <h1 className="text-3xl md:text-5xl font-bold mb-4">Find Your Match</h1>
         <h2 className="text-xl md:text-2xl mb-6 py-4">
           With Koach, we accelerate coach and client sourcing, swiftly pairing
           new and young pros with culturally aligned, world-class coaches
