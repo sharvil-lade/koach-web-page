@@ -30,10 +30,10 @@ function Hero() {
         <h1 className="text-3xl md:text-5xl font-bold mb-2 mt-4 md:mb-4">
           Say goodbye to endless{" "}
           <span className="text-blue-600 platform-name">{platform}</span>{" "}
-          searches.
+          searches
         </h1>
         <h1 className="text-3xl md:text-5xl font-bold mb-8 md:mb-16">
-          Find expert advice effortlessly with Koach.
+          Find expert advice effortlessly with Koach
         </h1>
         <div className="max-w-3xl md:max-w-5xl mx-auto">
           <p className="text-lg md:text-2xl mb-8 md:mb-12">

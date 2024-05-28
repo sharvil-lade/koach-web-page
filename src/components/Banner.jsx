@@ -7,8 +7,8 @@ const Banner = () => {
     <>
       <div className="bg-[#2D488F] border-x-[3px] border-y-[1.5px] border-[black] flex justify-center font-body text-center text-[28px] md:text-[44px] text-white w-full py-[1.5rem] md:py-[2.5rem] px-[1.5rem] md:px-[3rem]">
         <p>
-          Secure world-class coaching, build your network of skilled
-          <br className="hidden md:block" />
+          Secure world-class coaching, build your network of skilled 
+          <br />
           mentors and accelerate your professional growth trajectory
         </p>
       </div>
@@ -65,11 +65,7 @@ const Banner = () => {
               Achieve results in
               <br /> weeks; not in months
             </h2>
-            <img
-              src={after}
-              alt="after"
-              className="w-full px-[2rem] md:px-[8rem]"
-            />
+            <img src={after} alt="after" className="w-full px-[2rem] md:px-[8rem]" />
             <p className="font-body my-[1.5rem] md:my-[3rem] mx-[1rem] md:mx-[10rem] text-lg md:text-xl text-center">
               With Koach, we accelerate coach and client sourcing, swiftly
               pairing new and young pros with culturally aligned, world-class
@@ -92,7 +88,7 @@ const Banner = () => {
         </p>
         <div className="flex flex-col md:flex-row justify-center items-center gap-[1.5rem] md:gap-[3rem] relative">
           <button className="font-body font-medium border rounded-lg lg:py-[0.75rem] md:py-[0.75rem] px-[4rem] text-lg mb-4 lg:mb-0">
-            Subscribe to <br /> the newsletter
+            Subscribe to <br/> the newsletter
           </button>
           <button className="bg-slate-900 text-white py-3 md:py-6 px-4 md:px-16 rounded-lg shadow-lg hover:bg-slate-800 transition duration-300 text-lg  md:text-2xl border-2 border-black font-semibold uppercase hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[10px_10px_0px_#3498db] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
             Get Priority Access
