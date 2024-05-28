@@ -71,7 +71,7 @@ const Banner = () => {
               className="w-full px-[2rem] md:px-[3rem]"
             />
             <div className=" ">
-              <p className="font-body my-[1.5rem] md:my-[3rem] mx-[1rem] md:mx-[10rem] text-lg md:text-xl text-center pt-2">
+              <p className="font-body my-[1.5rem] md:my-[3rem] mx-[1rem] md:mx-[10rem] text-lg md:text-xl text-center pt-2 px-2">
                 With Koach, we accelerate coach and client sourcing, swiftly
                 pairing new and young pros with culturally aligned, world-class
                 coaches.
