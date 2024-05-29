@@ -47,8 +47,8 @@ const Banner = () => {
             <h2 className="font-body font-[800] text-[28px] md:text-4xl mb-[1.5rem] md:mb-[3rem] text-center">
               Traditional Coaching: <br /> Sluggish and Outdated
             </h2>
-            <img src={slug} alt="slug" className="w-full px-[1rem]" />
-            <p className="font-body mx-[1rem] md:mx-[10rem] text-lg md:text-xl text-center pt-20 px-2">
+            <img src={slug} alt="slug" className="w-full px-[2rem] md:px-[3rem]" />
+            <p className="font-body mx-[1rem] md:mx-[10rem] text-lg md:text-xl text-center pt-2 px-2">
               Finding, both the right coach and the right fit clients for your
               coaching business can take up to 6 months.
             </p>

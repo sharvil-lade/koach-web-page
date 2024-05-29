@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import dashboard from "../assets/dashboard.png";
+import dashboard from "../assets/dashboard.gif";
 
 function Dashboard() {
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);

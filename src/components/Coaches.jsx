@@ -9,13 +9,13 @@ function Coaches() {
           Unlock Your Potential "boss-level" experience in just a few clicks
         </h1>
         <h2 className="mb-6 text-xl md:text-2xl py-4">
-          Master essential skills, get your questions answered, and build your toolbox
-          to tackle crucial challenges at work. No complex
+          Master essential skills, get your questions answered, and build up
+          your toolbox to tackle any crucial challenges at work. No complex
           trainings needed.
         </h2>
         <div className="py-4">
           <button className="bg-slate-900 text-white py-3 md:py-6 px-4 md:px-16 rounded-lg shadow-lg hover:bg-slate-800 transition duration-300 text-lg md:text-2xl border-2 border-black font-semibold uppercase hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[10px_10px_0px_#3498db] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
-            Accelerate Career
+            Unlock Your Potential
           </button>
         </div>
       </div>
