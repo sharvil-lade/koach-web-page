@@ -1,7 +1,7 @@
 // import koach from "../assets/koach.png";
 // import SlideUpImage from "./SlideUpImage";
 import mentor from "../assets/mentor (2).png";
-import mentee from "../assets/mentee (2).png";
+import mentee from "../assets/mentee-4.png";
 import ellipseL from "../assets/ellipseL.png";
 import ellipseR from "../assets/ellipseR.png";
 import match95 from "../assets/match.png";

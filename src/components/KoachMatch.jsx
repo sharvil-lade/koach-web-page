@@ -1,14 +1,19 @@
-import match1 from "../assets/match1.gif";
+import React, {useState, useEffect}from "react";
+// import match1 from "../assets/match1.gif";
+import Slideshow from "./Slideshow";
+
 
 function KoachMatch() {
   return (
     <div className="flex flex-col md:flex-row h-auto md:h-screen">
       <div className="w-full md:w-1/2 flex justify-center items-center p-8 border border-black">
-        <img
+        {/* <img
           src={match1}
           alt="Placeholder"
           className="w-full h-full object-contain"
-        />
+        /> */}
+        {/* <img src={roles[currentRoleIndex]} alt="placeholder" /> */}
+        <Slideshow/>
       </div>
       <div className="bg-yellow-300 text-black p-8 w-full md:w-1/2 flex flex-col justify-center md:pl-16">
         <h1 className="text-3xl md:text-5xl font-bold mb-2">
