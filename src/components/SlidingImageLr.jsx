@@ -14,7 +14,7 @@ const SlidingImageLr = ({ src }) => {
         ref={ref}
         src={src} 
         alt="Sliding" 
-        className={`w-full transition-transform duration-1000 ${inView ? 'slide-in-lr-animation' : ''}`}
+        className={`w-full md:w-[70%] md:ml-[2rem] transition-transform duration-1000 ${inView ? 'slide-in-lr-animation' : ''}`}
       />
     </div>
   );   
