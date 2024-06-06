@@ -47,10 +47,14 @@ const Banner = () => {
             <h2 className="font-body font-[800] text-[28px] md:text-4xl mb-[1.5rem] md:mb-[3rem] text-center">
               Traditional Coaching: <br /> Sluggish and Outdated
             </h2>
-            <img src={slug} alt="slug" className="w-[30rem] mb-[2rem] px-[2rem] md:px-[3rem]" />
-            <p className="font-body mx-[1rem] md:mx-[12rem] text-lg md:text-xl text-center pt-[2.5rem] px-2">
-              Finding, both the right coach and the right fit clients for your
-              coaching business can take up to 6 months.
+            <img
+              src={slug}
+              alt="slug"
+              className="w-[30rem] mb-[2rem] px-[2rem] md:px-[3rem]"
+            />
+            <p className="font-body mx-[1rem] md:mx-[10rem] text-lg md:text-xl text-center pt-[2.5rem] mb-[2rem] md:mb-[1rem] px-2">
+              For both coaches and new pros seeking coaching and mentorship,
+              finding the right fit can take up to 6 months.
             </p>
           </div>
           {/* <img src={arr} alt='arrow'/> */}
@@ -71,7 +75,7 @@ const Banner = () => {
               className="w-full mb-[2rem] px-[2rem] md:px-[2rem]"
             />
             <div className=" ">
-              <p className="font-body my-[1.5rem] md:my-[3rem] mx-[1rem] md:mx-[10rem] text-lg md:text-xl text-center pt-6 px-2">
+              <p className="font-body my-[1.5rem] md:mb-[3rem] mx-[1rem] md:mx-[10rem] text-lg md:text-xl text-center pt-4 px-2">
                 With Koach, we accelerate coach and client sourcing, swiftly
                 pairing new and young pros with culturally aligned, world-class
                 coaches.
@@ -93,12 +97,17 @@ const Banner = () => {
           ready to accelerate your professional-career goals.
         </p>
         <div className="flex flex-col md:flex-row justify-center items-center gap-[1.5rem] md:gap-[3rem] relative">
-          <button className="font-body font-medium border rounded-lg lg:py-[0.75rem] md:py-[0.75rem] px-[4rem] text-lg mb-4 lg:mb-0">
-            Subscribe to <br /> the newsletter
-          </button>
-          <button className="bg-slate-900 text-white py-3 md:py-6 px-4 md:px-16 rounded-lg shadow-lg hover:bg-slate-800 transition duration-300 text-lg  md:text-2xl border-2 border-black font-semibold uppercase hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[10px_10px_0px_#3498db] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
-            Get Priority Access
-          </button>
+          <a href="https://form.feathery.io/to/JqZoDR#waitlist-application">
+            <button className="font-body font-medium border rounded-lg py-[0.5rem] lg:py-[0.75rem] md:py-[0.75rem] px-[4rem] text-lg mb-4 lg:mb-0">
+              Subscribe to <br />
+              Koachable Weekly
+            </button>
+          </a>
+          <a href="https://form.feathery.io/to/vdR7R9">
+            <button className="bg-slate-900 text-white py-3 md:py-6 px-4 md:px-16 rounded-lg shadow-lg hover:bg-slate-800 transition duration-300 text-lg  md:text-2xl border-2 border-black font-semibold uppercase hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[10px_10px_0px_#3498db] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
+              Get Priority Access
+            </button>
+          </a>
         </div>
       </div>
     </>

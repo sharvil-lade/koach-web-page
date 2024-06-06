@@ -43,9 +43,14 @@ const Footer = () => {
             Connect with Boss-level World-Class
             <br /> Coaches in just 2 minutes.
           </p>
-          <button className="font-body font-medium border rounded-lg py-[1rem] px-[1rem] text-lg w-full lg:w-[30%] mb-4 lg:mb-0">
-            Subscribe
-          </button>
+          <div className="flex flex-col md:flex-row justify-center items-center gap-[1.5rem] md:gap-[3rem] relative">
+            <a href="https://form.feathery.io/to/JqZoDR#waitlist-application">
+              <button className="font-body font-medium border rounded-lg py-[0.5rem] lg:py-[0.75rem] md:py-[0.75rem] px-[3rem] text-lg mb-4 lg:mb-0">
+                Subscribe to <br />
+                Koachable Weekly
+              </button>
+            </a>
+          </div>
         </div>
         <div className="p-[3rem] border-l-[1.5px] border-[black] w-full lg:w-[50%] flex justify-center">
           <img src={footer} alt="footer" className="h-auto max-w-full" />

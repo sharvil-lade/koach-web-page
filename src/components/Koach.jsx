@@ -32,15 +32,19 @@ function Koach() {
         </div>
       </div>
       <div className="bg-yellow-300 text-black p-8 w-full h-[50vh]  md:h-[100vh] flex flex-col justify-center pl-4 md:pl-16">
-        <h1 className="text-3xl mt-[1rem] md:mt-0 md:text-5xl font-bold mb-4">Find Your Match</h1>
+        <h1 className="text-3xl mt-[1rem] md:mt-0 md:text-5xl font-bold mb-4">
+          Find Your Match
+        </h1>
         <h2 className="text-xl md:text-2xl mb-6 py-4">
           With Koach, we accelerate coach and client sourcing, swiftly pairing
           new and young pros with culturally aligned, world-class coaches.
         </h2>
         <div className="py-4">
-          <button className="bg-slate-900 text-white py-4 md:py-6 px-6 md:px-16 rounded-lg shadow-lg hover:bg-slate-800 transition duration-300 text-lg md:text-2xl border-2 border-black font-semibold uppercase hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[10px_10px_0px_#3498db] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
-            Find Your Match
-          </button>
+          <a href="https://form.feathery.io/to/vdR7R9">
+            <button className="bg-slate-900 text-white py-4 md:py-6 px-6 md:px-16 rounded-lg shadow-lg hover:bg-slate-800 transition duration-300 text-lg md:text-2xl border-2 border-black font-semibold uppercase hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[10px_10px_0px_#3498db] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
+              Find Your Match
+            </button>
+          </a>
         </div>
       </div>
     </div>

@@ -14,9 +14,11 @@ function Coaches() {
           trainings needed.
         </h2>
         <div className="py-4">
-          <button className="bg-slate-900 text-white py-3 md:py-6 px-4 md:px-16 rounded-lg shadow-lg hover:bg-slate-800 transition duration-300 text-lg md:text-2xl border-2 border-black font-semibold uppercase hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[10px_10px_0px_#3498db] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
-            Unlock Your Potential
-          </button>
+          <a href="https://form.feathery.io/to/vdR7R9 ">
+            <button className="bg-slate-900 text-white py-3 md:py-6 px-4 md:px-16 rounded-lg shadow-lg hover:bg-slate-800 transition duration-300 text-lg md:text-2xl border-2 border-black font-semibold uppercase hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[10px_10px_0px_#3498db] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
+              Unlock Your Potential
+            </button>
+          </a>
         </div>
       </div>
       <div className="w-full md:w-1/2 flex justify-center items-center p-4 md:p-0 py-12 md:ml-24">
