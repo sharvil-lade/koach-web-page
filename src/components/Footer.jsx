@@ -1,9 +1,7 @@
 import React from "react";
 import footer from "../assets/frame1.png";
 import koach from "../assets/koach_logo.png";
-import { FaTiktok } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaTiktok, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -21,7 +19,7 @@ const Footer = () => {
             type="text"
             placeholder="enter email address to get started"
             className="font-body font-bold border-[3px] border-[black] rounded-xl my-[1rem] px-[2rem] py-[1rem] text-xl lg:text-2xl text-[black] w-[80%] lg:w-[50%]"
-          ></input>
+          />
           <button className="border-2 border-[black] font-body font-[600] bg-[white] py-[1rem] px-[1rem] rounded-xl text-[black] text-xl lg:text-2xl w-full lg:w-auto lg:ml-[1rem]">
             Let's Go!
           </button>
@@ -63,9 +61,15 @@ const Footer = () => {
           className="h-[2rem] w-[2rem] lg:h-[3rem] lg:w-[3rem]"
         />
         <div className="flex gap-x-[1rem] text-3xl lg:text-5xl">
-          <FaTiktok />
-          <FaFacebook />
-          <FaLinkedin />
+          <a href="https://www.tiktok.com/@koach.live?_t=8n0JtHHqqmV&_r=1">
+            <FaTiktok />
+          </a>
+          <a href="https://instagram.com/koachoff">
+            <FaInstagram />
+          </a>
+          <a href="https://www.linkedin.com/company/koachoff">
+            <FaLinkedin />
+          </a>
         </div>
       </div>
     </>
